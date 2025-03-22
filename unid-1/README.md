@@ -8,33 +8,33 @@ Este repositório contém três programas desenvolvidos para resolver problemas 
 
 1. Gerenciamento de Estoque
 
-- Adiciona um novo produto ao estoque.
+    - Adiciona um novo produto ao estoque.
 
-- Remove um produto pelo nome.
-
-- Atualiza a quantidade de um produto existente.
-
-- Exibir todos os produtos no estoque.
+    - Remove um produto pelo nome.
+    
+    - Atualiza a quantidade de um produto existente.
+    
+    - Exibir todos os produtos no estoque.
 
 2. Cadastro de Alunos e Notas
 
-- Adiciona um aluno e suas quatro notas.
-
-- Atualiza as notas de um aluno existente.
-
-- Remove um aluno do cadastro.
-
-- Exibi todos os alunos e suas notas.
-
-- Calcula e exibi a média das notas de cada aluno.
+    - Adiciona um aluno e suas quatro notas.
+    
+    - Atualiza as notas de um aluno existente.
+    
+    - Remove um aluno do cadastro.
+    
+    - Exibi todos os alunos e suas notas.
+    
+    - Calcula e exibi a média das notas de cada aluno.
 
 3. de Tarefas
 
-- Adiciona uma nova tarefa.
-
-- Marca uma tarefa como concluída.
-
-- Lista todas as tarefas, separando as concluídas das pendentes.
+    - Adiciona uma nova tarefa.
+    
+    - Marca uma tarefa como concluída.
+    
+    - Lista todas as tarefas, separando as concluídas das pendentes.
 
 ### Como executar
 
