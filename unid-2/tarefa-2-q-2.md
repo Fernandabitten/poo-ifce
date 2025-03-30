@@ -1,5 +1,5 @@
 2) Pense em três problemas da vida real que pode-se modular com orientação a objetos e explique o que corresponde a classe, objeto, métodos e parâmetros.
-    1. **Sistema de Gerenciamento de Pedidos de Comida**:  
+1. **Sistema de Gerenciamento de Pedidos de Comida**:  
      - **Problema:** Um restaurante precisa gerenciar os pedidos dos clientes, incluindo pratos, valores e status. O sistema precisa ser capaz de adicionar e remover itens, atualizar o status e calcular o total de cada pedido. Além de permitir ver os itens incluídos e o status do pedido (se está sendo preparado, se foi entregue, etc.).
     - **Classe**: Pedido
         representa um pedido.
@@ -21,7 +21,7 @@
             - **`total`**: Valor total do pedido.
             - **`novo_status`**:Status do pedido.
 
-    2. **Controle de Iluminação em um Escritório**:  
+2. **Controle de Iluminação em um Escritório**:  
      - **Problema:** Em um escritório, o administrador deseja automatizar o controle das luzes para economizar energia. O sistema deve permitir ligar ou desligar as luzes de diferentes salas, ajustar a intensidade das lâmpadas (se forem dimmers) e verificar o estado atual de cada luz. Além disso, o sistema pode ser configurado para desligar automaticamente as luzes após o horário de expediente.
      
     - **Classe**: Luz
@@ -42,7 +42,7 @@
             - **`intensidade`**: Representa a intensidade da luz (exemplo: um valor entre 0 e 100).
             - **`sala`**: Nome da sala onde a luz está localizada (exemplo: "Sala de Reunião").   
 
-    3. **Controle de Animais em um petshop**:  
+3. **Controle de Animais em um petshop**:  
      - **Problema:** Um petshop precisa de um sistema para gerenciar os animais que estão sob seus cuidados. O sistema deve registrar informações sobre os animais, como nome, espécie, raça, idade e histórico. Além disso, o sistema deve permitir agendar serviços para os animais, como banho, tosa e consultas veterinárias. 
     - **Classe**: Animal
         representa um animal em  um petshop.
@@ -59,7 +59,7 @@
             - **`raca`**: Raça do animal.
             - **`idade`**: Idade do animal.
             - **`historico`**: Histórico do animal (exemplo: vacinas aplicadas, doenças tratadas, serviço prestado ao animal (como banho, tosa, etc)).
-
+    
     - **Classe**: Serviço
         representa um serviço.
         - **Objeto:**
@@ -71,7 +71,7 @@
             - **`nome`**: Nome do serviço (exemplo: "Banho").
             - **`preco`**: Preço do serviço.
             - **`descrecao`**: Descrição detalhada do serviço.
-
+    
     - **Classe**: Agendamento
         representa um agendamento.
         - **Objeto:**
