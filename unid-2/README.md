@@ -30,7 +30,7 @@ Este repositório contém os exercícios resolvidos da Unidade 2 sobre Programa�
    - idade
    - cidade
 
-A classe também possui um método apresentar() que imprime uma mensagem com os dados da pessoa. Dois objetos foram criados e o método apresentar() foi chamado para cada um deles.
+   A classe também possui um método apresentar() que imprime uma mensagem com os dados da pessoa. Dois objetos foram criados e o método apresentar() foi chamado para cada um deles.
 
 5. Classe Livro
    Foi criada a classe Livro com os seguintes atributos:
@@ -39,7 +39,7 @@ A classe também possui um método apresentar() que imprime uma mensagem com os 
    - ano_publicacao
    - preco
 
-A classe também possui um método exibir_informacoes() que imprime uma mensagem com os dados do livro. Dois objetos foram criados e o método exibir_informacoes() foi chamado para cada um deles.
+   A classe também possui um método exibir_informacoes() que imprime uma mensagem com os dados do livro. Dois objetos foram criados e o método exibir_informacoes() foi chamado para cada um deles.
 
 ### Tecnologias Utilizadas
 
