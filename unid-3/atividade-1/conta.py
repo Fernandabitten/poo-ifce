@@ -30,6 +30,29 @@ class Conta:
     def set_saldo(self, saldo):
         self.saldo = saldo
 
+    
+    def consultar_saldo(self):
+        return f"Saldo atual: R$ {self.saldo:.2f}"
+
+    def depositar(self, valor):
+        if valor > 0:
+            self.saldo += valor
+            return f"Depósito de R$ {valor:.2f} realizado com sucesso."
+        return "Valor de depósito inválido."
+
+    def sacar(self, valor):
+        if 0 < valor <= self.saldo:
+            self.saldo -= valor
+            return f"Saque de R$ {valor:.2f} realizado com sucesso."
+        return "Saldo insuficiente ou valor inválido."
+
+    def transferir(self, valor, conta_destino):
+        if 0 < valor <= self.saldo:
+            self.saldo -= valor
+            conta_destino.depositar(valor)
+            return f"Transferência de R$ {valor:.2f} realizada com sucesso para a conta de {conta_destino.usuario.nome}."
+        return "Saldo insuficiente ou valor inválido."
+
     def __str__(self):
         return (f"Agência: {self.agencia}\n"
                 f"Usuário: {self.usuario.nome}\n"

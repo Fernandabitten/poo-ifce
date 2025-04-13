@@ -6,6 +6,7 @@ class Restaurante:
     def __init__(self, nome_restaurante, tipo_cozinha):
         self.nome_restaurante = nome_restaurante
         self.tipo_cozinha = tipo_cozinha
+        self.numero_servidos = 0 # Atributo adicional para contar o número de pratos servidos
 
     def descrever_restaurante(self):
         print(f"Nome do Restaurante: {self.nome_restaurante}")
@@ -13,6 +14,22 @@ class Restaurante:
 
     def abrir_restaurante(self):
         print(f"O restaurante {self.nome_restaurante} está aberto!")
+    
+    def get_numero_servidos(self):
+        return self.numero_servidos
+
+    def set_numero_servidos(self, numero):
+        if numero >= 0:
+            self.numero_servidos = numero
+        else:
+            print("O número de clientes servidos não pode ser negativo.")
+
+    def incremente_numero_servidos(self, adicional):
+        if adicional > 0:
+            novo_total = self.get_numero_servidos() + adicional
+            self.set_numero_servidos(novo_total)
+        else:
+            print("O incremento precisa ser maior que zero.")
 
     def __str__(self):
         return (f"Nome do Restaurante: {self.nome_restaurante}\n"
