@@ -15,9 +15,17 @@ suas respectivas atividades, incluindo um README detalhado sobre os desafios pro
 ├── unid-2
 │   ├── README.md  # Informações sobre os exercícios da unidade 2
 │   ├── ...
-│
 ├── unid-3
 │   ├── README.md  # Informações sobre os exercícios da unidade 3
+│   ├── ...
+├── unid-4
+│   ├── README.md  # Informações sobre os exercícios da unidade 4
+│   ├── ...
+├── unid-5
+│   ├── README.md  # Informações sobre os exercícios da unidade 5
+│   ├── ...
+├── unid-6
+│   ├── README.md  # Informações sobre os exercícios da unidade 6
 │   ├── ...
 │
 ├── README.md  # Este arquivo com a visão geral do repositório
@@ -31,7 +39,6 @@ git clone https://github.com/Fernandabitten/poo-ifce.git
 ```
 cd unid-1  # Exemplo para a unidade 1
 ```
-3. Acesse a unidade desejada:
 Leia o README da unidade para entender os exercícios e como executá-los.
 
 ### Tecnologias Utilizadas
