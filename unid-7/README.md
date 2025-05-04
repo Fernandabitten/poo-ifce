@@ -1,4 +1,4 @@
-## Unidade 7 – Persistência em arquivos e ExceçõesTratamento de Exceções
+## Unidade 7 – Persistência em arquivos e Tratamento de Exceções
 
 Este projeto é a atividade final da Unidade 7 do curso de Programação Orientada a Objetos. O objetivo é aplicar os conceitos de **persistência de dados em arquivos de texto** e **tratamento de exceções** em um sistema que simula o gerenciamento de alunos, professores e disciplinas.
 
@@ -54,3 +54,12 @@ Cada linha desses arquivos contém os dados separados por `|`, que são lidos e 
 ```bash
 python main.py
 ```
+3. Os dados serão carregados, e os objetos serão exibidos com as informações completas.
+
+##  Tratamento de Erros
+- Caso algum dos arquivos não exista, o sistema exibe uma mensagem amigável e continua a execução.
+- Possíveis erros de leitura ou dados mal formatados também são tratados com blocos try/except.
+
+## Observação
+Este projeto é focado em arquivos de texto. A persistência com arquivos binários e banco de dados será abordada em etapas futuras do curso.
+
